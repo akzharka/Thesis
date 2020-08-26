@@ -13,3 +13,10 @@ Audio features are represented by Mel Frequency Cepstral Coefficient (MFCC) data
 1. Video feature extraction using VGG16
 2. Text processing
 3. Sequence-to-Sequence model
+
+Dataset description
+Simulations are conducted using the MSR-VTT dataset. This dataset is developed by Microsoft Research and 
+consists of 10K video clips of 20 different categories where each video is described with 20 sentences.
+The main advantages of this dataset over others are the diversity of video, the complexity of video content 
+and the availability of audio channels. The dataset is divided into training (6513 videos), validation (457 videos)
+and test (2990) subsets.
